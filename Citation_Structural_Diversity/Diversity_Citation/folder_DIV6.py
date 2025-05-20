@@ -190,7 +190,7 @@ def build_temp_graph(G, embedding_files_folder, output_file):
                 # 计算相似度数据的平均值
                 avg_similarity1 = np.mean(Similarity1)
 
-                similarity_threshold = [avg_similarity1, ]
+                similarity_threshold = [avg_similarity1]
             else:
                 # 如果没有相似度数据，设置一个默认的阈值
                 similarity_threshold = [0.0]
